@@ -1,6 +1,6 @@
-import elementTest from './demo'
+import BasePagination from './element-packages'
 const components = [
-  elementTest
+  BasePagination
 ]
 
 const install = function(Vue) {
@@ -15,5 +15,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  elementTest
+  BasePagination
 }

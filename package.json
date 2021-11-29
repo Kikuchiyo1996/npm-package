@@ -1,8 +1,11 @@
 {
-  "name": "npm-package",
-  "version": "0.1.0",
-  "private": true,
+  "name": "wdd-pagination",
+  "version": "1.0.1",
+  "private": false,
+  "description": "基于element-ui二次封装的分页组件",
+  "main": "lib/wdd-element.umd.min.js",
   "scripts": {
+    "lib": "vue-cli-service build --target lib --name wdd-element  --dest lib ./src/packages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
